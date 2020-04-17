@@ -37,6 +37,14 @@ class Landing extends Component {
                 >
                   <i className="fab fa-linkedin" aria-hidden="true" />
                 </a>
+
+                <a
+                  href="https://ohhhhhwhen.github.io/resume/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i className="fas fa-address-card" aria-hidden="true" />
+                </a>
               </div>
             </div>
           </Cell>
