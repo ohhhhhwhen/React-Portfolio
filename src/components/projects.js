@@ -19,6 +19,116 @@ class Projects extends Component {
     };
   }
 
+  lastThree() {
+    if (this.state.activeTab === 0) {
+      return (
+        <div className="projects-grid">
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "white",
+                height: "176px",
+                background:
+                  "url(https://github.com/ohhhhhwhen/React-Portfolio/blob/master/images/budget.png?raw=true) center / cover"
+              }}
+            >
+              Budget Tracker
+            </CardTitle>
+            <CardText>Add or Subtract funds with a budget tracker stored in mongo</CardText>
+            <CardActions border>
+              <Button colored>
+                <a
+                  href="https://github.com/ohhhhhwhen/Budget-Tracker"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://budget-tracker-2020.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live App
+                </a>
+              </Button>
+            </CardActions>
+          </Card>
+
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "white",
+                height: "176px",
+                background:
+                  "url(https://github.com/ohhhhhwhen/React-Portfolio/blob/master/images/workout.png?raw=true) center / cover"
+              }}
+            >
+              Workout Tracker
+            </CardTitle>
+            <CardText>A mongo database to keep track of workouts</CardText>
+            <CardActions border>
+              <Button colored>
+                <a
+                  href="https://github.com/ohhhhhwhen/Workout-Tracker"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://all-new-workout-tracker.herokuapp.com/?id=5e8aca4e354b290017d1e3a6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live App
+                </a>
+              </Button>
+            </CardActions>
+          </Card>
+
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "white",
+                height: "176px",
+                background:
+                  "url(https://github.com/ohhhhhwhen/React-Portfolio/blob/master/images/employee.png?raw=true) center / cover"
+              }}
+            >
+              Employee Directory
+            </CardTitle>
+            <CardText>Responsive react app to filter through employees with search keys</CardText>
+            <CardActions border>
+              <Button colored>
+                <a
+                  href="https://github.com/ohhhhhwhen/React-Employee-Directory"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://ohhhhhwhen.github.io/React-Employee-Directory/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live App
+                </a>
+              </Button>
+            </CardActions>
+          </Card>
+        </div>
+      );
+    }
+  }
+
   moreThanThree() {
     if (this.state.activeTab === 0) {
       return (
@@ -34,7 +144,7 @@ class Projects extends Component {
             >
               Burger App
             </CardTitle>
-            <CardText>info here</CardText>
+            <CardText>Using SQL to create a burger database, being to add and update the database</CardText>
             <CardActions border>
               <Button colored>
                 <a
@@ -68,7 +178,7 @@ class Projects extends Component {
             >
               Weather App
             </CardTitle>
-            <CardText>info here</CardText>
+            <CardText>An API application that displays a searched location's upcoming weather</CardText>
             <CardActions border>
               <Button colored>
                 <a
@@ -94,7 +204,7 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
-                color: "black",
+                color: "white",
                 height: "176px",
                 background:
                   "url(https://github.com/ohhhhhwhen/React-Portfolio/blob/master/images/virusApp.png?raw=true) center / cover"
@@ -102,7 +212,7 @@ class Projects extends Component {
             >
               Virus Wars
             </CardTitle>
-            <CardText>info here</CardText>
+            <CardText>A HTML5 game created with Phaser, involving users to run, jump and dodge</CardText>
             <CardActions border>
               <Button colored>
                 <a
@@ -140,7 +250,7 @@ class Projects extends Component {
             >
               Weather App
             </CardTitle>
-            <CardText>info here</CardText>
+            <CardText>An API application that displays a searched location's upcoming weather</CardText>
             <CardActions border>
               <Button colored>
                 <a
@@ -166,7 +276,7 @@ class Projects extends Component {
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
             <CardTitle
               style={{
-                color: "black",
+                color: "white",
                 height: "176px",
                 background:
                   "url(https://github.com/ohhhhhwhen/React-Portfolio/blob/master/images/virusApp.png?raw=true) center / cover"
@@ -174,7 +284,7 @@ class Projects extends Component {
             >
               Virus Wars
             </CardTitle>
-            <CardText>info here</CardText>
+            <CardText>A HTML5 game created with Phaser, involving users to run, jump and dodge</CardText>
             <CardActions border>
               <Button colored>
                 <a
@@ -216,7 +326,7 @@ class Projects extends Component {
             >
               Nite Owl
             </CardTitle>
-            <CardText>info here</CardText>
+            <CardText>A Javascript application that allows users to plan a night out</CardText>
             <CardActions border>
               <Button colored>
                 <a
@@ -250,7 +360,7 @@ class Projects extends Component {
             >
               Password Generator
             </CardTitle>
-            <CardText>info here</CardText>
+            <CardText>An HTML5 application that creates random passwords for users in a click of a button</CardText>
             <CardActions border>
               <Button colored>
                 <a
@@ -284,7 +394,7 @@ class Projects extends Component {
             >
               Code Quiz
             </CardTitle>
-            <CardText>info here</CardText>
+            <CardText>A timed Javascript quiz application with ranked highscores</CardText>
             <CardActions border>
               <Button colored>
                 <a
@@ -322,7 +432,7 @@ class Projects extends Component {
             >
               Nite Owl
             </CardTitle>
-            <CardText>info here</CardText>
+            <CardText>A Javascript application that allows users to plan a night out</CardText>
             <CardActions border>
               <Button colored>
                 <a
@@ -356,7 +466,7 @@ class Projects extends Component {
             >
               Password Generator
             </CardTitle>
-            <CardText>info here</CardText>
+            <CardText>An HTML5 application that creates random passwords for users in a click of a button</CardText>
             <CardActions border>
               <Button colored>
                 <a
@@ -390,7 +500,7 @@ class Projects extends Component {
             >
               Code Quiz
             </CardTitle>
-            <CardText>info here</CardText>
+            <CardText>A timed Javascript quiz application with ranked highscores</CardText>
             <CardActions border>
               <Button colored>
                 <a
@@ -428,7 +538,7 @@ class Projects extends Component {
             >
               Burger App
             </CardTitle>
-            <CardText>info here</CardText>
+            <CardText>Using SQL to create a burger database, being to add and update the database</CardText>
             <CardActions border>
               <Button colored>
                 <a
@@ -450,6 +560,74 @@ class Projects extends Component {
               </Button>
             </CardActions>
           </Card>
+
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "white",
+                height: "176px",
+                background:
+                  "url(https://github.com/ohhhhhwhen/React-Portfolio/blob/master/images/budget.png?raw=true) center / cover"
+              }}
+            >
+              Budget Tracker
+            </CardTitle>
+            <CardText>Add or Subtract funds with a budget tracker stored in mongo</CardText>
+            <CardActions border>
+              <Button colored>
+                <a
+                  href="https://github.com/ohhhhhwhen/Budget-Tracker"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://budget-tracker-2020.herokuapp.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live App
+                </a>
+              </Button>
+            </CardActions>
+          </Card>
+
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "white",
+                height: "176px",
+                background:
+                  "url(https://github.com/ohhhhhwhen/React-Portfolio/blob/master/images/workout.png?raw=true) center / cover"
+              }}
+            >
+              Workout Tracker
+            </CardTitle>
+            <CardText>A mongo database to keep track of workouts</CardText>
+            <CardActions border>
+              <Button colored>
+                <a
+                  href="https://github.com/ohhhhhwhen/Workout-Tracker"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://all-new-workout-tracker.herokuapp.com/?id=5e8aca4e354b290017d1e3a6"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live App
+                </a>
+              </Button>
+            </CardActions>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 3) {
@@ -461,7 +639,7 @@ class Projects extends Component {
                 color: "black",
                 height: "176px",
                 background:
-                  "url(https://github.com/ohhhhhwhen/React-Books-Library/raw/master/library.png) center / cover"
+                  "url(https://github.com/ohhhhhwhen/React-Portfolio/blob/master/images/library.png?raw=true) center / cover"
               }}
             >
               Books Library
@@ -488,6 +666,40 @@ class Projects extends Component {
               </Button>
             </CardActions>
           </Card>
+
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "white",
+                height: "176px",
+                background:
+                  "url(https://github.com/ohhhhhwhen/React-Portfolio/blob/master/images/employee.png?raw=true) center / cover"
+              }}
+            >
+              Employee Directory
+            </CardTitle>
+            <CardText>Responsive react app to filter through employees with search keys</CardText>
+            <CardActions border>
+              <Button colored>
+                <a
+                  href="https://github.com/ohhhhhwhen/React-Employee-Directory"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://ohhhhhwhen.github.io/React-Employee-Directory/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Live App
+                </a>
+              </Button>
+            </CardActions>
+          </Card>
         </div>
       );
     }
@@ -497,14 +709,14 @@ class Projects extends Component {
     return (
       <div className="category-tabs">
         <Tabs
-        className="grid-tabs"
+          className="grid-tabs"
           activeTab={this.state.activeTab}
           onChange={tabId => this.setState({ activeTab: tabId })}
           ripple
         >
           <Tab>All Projects</Tab>
           <Tab>Javascript</Tab>
-          <Tab>Mongo</Tab>
+          <Tab>SQL/Mongo</Tab>
           <Tab>React</Tab>
         </Tabs>
 
@@ -514,6 +726,9 @@ class Projects extends Component {
           </Cell>
           <Cell col={12}>
             <div className="content">{this.moreThanThree()}</div>
+          </Cell>
+          <Cell col={12}>
+            <div className="content">{this.lastThree()}</div>
           </Cell>
         </Grid>
       </div>
