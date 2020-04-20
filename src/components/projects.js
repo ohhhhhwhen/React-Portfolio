@@ -8,9 +8,7 @@ import {
   CardTitle,
   CardText,
   CardActions,
-  Button,
-  CardMenu,
-  IconButton
+  Button
 } from "react-mdl";
 
 class Projects extends Component {
@@ -31,7 +29,7 @@ class Projects extends Component {
                 color: "black",
                 height: "176px",
                 background:
-                  "url(https://ohhhhhwhen.github.io/Updated-Portfolio/images/burgerApp.png) center / cover"
+                  "url(https://github.com/ohhhhhwhen/React-Portfolio/blob/master/images/burgerApp.png?raw=true) center / cover"
               }}
             >
               Burger App
@@ -57,9 +55,6 @@ class Projects extends Component {
                 </a>
               </Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
 
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
@@ -68,7 +63,7 @@ class Projects extends Component {
                 color: "black",
                 height: "176px",
                 background:
-                  "url(https://github.com/ohhhhhwhen/Location-Weather/raw/master/images/working-page.png) center / cover"
+                  "url(https://github.com/ohhhhhwhen/React-Portfolio/blob/master/images/weatherApp.png?raw=true) center / cover"
               }}
             >
               Weather App
@@ -94,9 +89,6 @@ class Projects extends Component {
                 </a>
               </Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
 
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
@@ -105,7 +97,7 @@ class Projects extends Component {
                 color: "black",
                 height: "176px",
                 background:
-                  "url(https://github.com/Olsenben77/Project-2/raw/master/public/assets/img/mainpage.png) center / cover"
+                  "url(https://github.com/ohhhhhwhen/React-Portfolio/blob/master/images/virusApp.png?raw=true) center / cover"
               }}
             >
               Virus Wars
@@ -131,9 +123,6 @@ class Projects extends Component {
                 </a>
               </Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
         </div>
       );
@@ -146,7 +135,7 @@ class Projects extends Component {
                 color: "black",
                 height: "176px",
                 background:
-                  "url(https://github.com/ohhhhhwhen/Location-Weather/raw/master/images/working-page.png) center / cover"
+                  "url(https://github.com/ohhhhhwhen/React-Portfolio/blob/master/images/weatherApp.png?raw=true) center / cover"
               }}
             >
               Weather App
@@ -172,9 +161,6 @@ class Projects extends Component {
                 </a>
               </Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
 
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
@@ -183,7 +169,7 @@ class Projects extends Component {
                 color: "black",
                 height: "176px",
                 background:
-                  "url(https://github.com/Olsenben77/Project-2/raw/master/public/assets/img/mainpage.png) center / cover"
+                  "url(https://github.com/ohhhhhwhen/React-Portfolio/blob/master/images/virusApp.png?raw=true) center / cover"
               }}
             >
               Virus Wars
@@ -209,9 +195,6 @@ class Projects extends Component {
                 </a>
               </Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
         </div>
       );
@@ -228,7 +211,7 @@ class Projects extends Component {
                 color: "black",
                 height: "176px",
                 background:
-                  "url(https://ohhhhhwhen.github.io/Updated-Portfolio/images/NiteOwl.png) center / cover"
+                  "url(https://github.com/ohhhhhwhen/React-Portfolio/blob/master/images/NiteOwl.png?raw=true) center / cover"
               }}
             >
               Nite Owl
@@ -254,9 +237,6 @@ class Projects extends Component {
                 </a>
               </Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
 
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
@@ -265,7 +245,7 @@ class Projects extends Component {
                 color: "black",
                 height: "176px",
                 background:
-                  "url(https://github.com/ohhhhhwhen/Generate-My-Password/raw/master/images/Screen-Shot.png) center / cover"
+                  "url(https://github.com/ohhhhhwhen/React-Portfolio/blob/master/images/password.png?raw=true) center / cover"
               }}
             >
               Password Generator
@@ -291,9 +271,6 @@ class Projects extends Component {
                 </a>
               </Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
 
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
@@ -302,7 +279,7 @@ class Projects extends Component {
                 color: "black",
                 height: "176px",
                 background:
-                  "url(https://github.com/ohhhhhwhen/Class-Quiz/raw/master/images/quiz-start.png) center / cover"
+                  "url(https://github.com/ohhhhhwhen/React-Portfolio/blob/master/images/quiz.png?raw=true) center / cover"
               }}
             >
               Code Quiz
@@ -328,9 +305,6 @@ class Projects extends Component {
                 </a>
               </Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
         </div>
       );
@@ -343,7 +317,7 @@ class Projects extends Component {
                 color: "#fff",
                 height: "176px",
                 background:
-                  "url(https://ohhhhhwhen.github.io/Updated-Portfolio/images/NiteOwl.png) center / cover"
+                  "url(https://github.com/ohhhhhwhen/React-Portfolio/blob/master/images/NiteOwl.png?raw=true) center / cover"
               }}
             >
               Nite Owl
@@ -369,9 +343,6 @@ class Projects extends Component {
                 </a>
               </Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
 
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
@@ -380,7 +351,7 @@ class Projects extends Component {
                 color: "black",
                 height: "176px",
                 background:
-                  "url(https://github.com/ohhhhhwhen/Generate-My-Password/raw/master/images/Screen-Shot.png) center / cover"
+                  "url(https://github.com/ohhhhhwhen/React-Portfolio/blob/master/images/password.png?raw=true) center / cover"
               }}
             >
               Password Generator
@@ -406,9 +377,6 @@ class Projects extends Component {
                 </a>
               </Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
 
           <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
@@ -417,7 +385,7 @@ class Projects extends Component {
                 color: "black",
                 height: "176px",
                 background:
-                  "url(https://github.com/ohhhhhwhen/Class-Quiz/raw/master/images/quiz-start.png) center / cover"
+                  "url(https://github.com/ohhhhhwhen/React-Portfolio/blob/master/images/quiz.png?raw=true) center / cover"
               }}
             >
               Code Quiz
@@ -443,9 +411,6 @@ class Projects extends Component {
                 </a>
               </Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
         </div>
       );
@@ -458,7 +423,7 @@ class Projects extends Component {
                 color: "black",
                 height: "176px",
                 background:
-                  "url(https://ohhhhhwhen.github.io/Updated-Portfolio/images/burgerApp.png) center / cover"
+                  "url(https://github.com/ohhhhhwhen/React-Portfolio/blob/master/images/burgerApp.png?raw=true) center / cover"
               }}
             >
               Burger App
@@ -484,9 +449,6 @@ class Projects extends Component {
                 </a>
               </Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
         </div>
       );
@@ -525,9 +487,6 @@ class Projects extends Component {
                 </a>
               </Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
           </Card>
         </div>
       );
